@@ -1,0 +1,185 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+header
+{
+	background-color: #181dad;
+	height: 60px;
+}
+
+
+.image1
+{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.mainhead
+{
+	font-size: 2.5em;
+	font-family: sans-serif;
+	color: white;
+	padding-left: 20px;
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+.menu1 li 
+{
+	list-style-type: none;
+	display: inline;
+	color:#8e8e8e;
+    padding-right: 25px;
+}
+
+
+.menu1 a
+{
+	color:white;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding-right: 60px;
+
+}
+.col-3
+{
+	float:left;
+	width: 33%;
+	display: inline-block;
+}
+
+.caption1
+{
+	color: green;
+	font-size:1.5em;
+	font-family: sans-serif;
+}
+
+section
+{
+	height: 75vh;
+}
+
+#table1
+{
+	text-align: center;
+	width: 80%;
+	margin:auto;
+	padding-top: 100px;
+	font-size: 20px;
+	line-height: 1.8em;
+}
+
+#table1 a
+{
+	color: black;
+}
+
+#table1 h1
+{
+	margin-left: 50px;
+	font-size: Sans-Serif;
+}
+
+.message-heading
+{
+	
+	padding-top: 100px;
+	font-family: sans-serif;
+	font-size: 2.5em;
+	padding-left: 140px;
+	padding-bottom:0px; 
+
+}
+
+.message-para
+{
+	
+	color: green;
+    padding-top: 130px;
+	font-family: sans-serif;
+	font-size: 1.7em;
+	padding-top: 0px;
+	padding-left: 140px;
+}
+
+
+.cart-empty-heading
+{
+	padding-top: 100px;
+	font-family: sans-serif;
+	font-size: 2.5em;
+	padding-left: 140px;
+	padding-bottom:0px; 
+
+}
+
+.cart-empty-para
+{
+	
+    padding-top: 130px;
+	font-family: sans-serif;
+	font-size: 1.7em;
+	padding-top: 0px;
+	padding-left: 140px;
+}
+
+.form-table
+{
+	
+	width: 70%;
+	margin:auto;
+	height: 50vh;
+}
+
+.truyum-head
+{
+	font-size: 2.5em;
+	font-style:  sans-serif;
+	margin-left: 180px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+
+
+}
+
+.form-head
+{
+	font-style: Sans-Serif;
+	text-align: center;
+	font-size: 2.5em;
+
+}
+
+.form-save
+{
+	background-color: #181dad;
+	color: white;
+	padding-top: 5px;
+	height: 35px;
+	line-height: 1.3em;
+	width:85px;
+}
+
+
+.form-check
+{
+	padding-bottom: 20px;
+}
+footer
+{
+	background-color: #9a9aa1;
+	height: 50px;
+}
+.footer1
+{
+	font-size: 1.2em;
+	font-family: sans-serif;
+	padding-top: 1.1px;
+}

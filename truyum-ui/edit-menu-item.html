@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>truyum menu item customer</title>
+
+<div class="col-3">
+	<link rel="stylesheet" type="text/css" href="style/style1.css">
+</div>
+	
+</head>
+<body>
+
+<header>
+	<div class="col-3">
+<h1 class="mainhead">truYum</h1>
+</div>
+<div class="col-3">
+<img src="C:\Users\Akriti\Desktop\truyum-ui\images\logo1.png"  class="image1" height="60px" width="60px">
+</div>
+<div class="col-3">
+		<ul class ="menu1">
+			<li><a href="menu-item-list-admin.html">Menu</a></li>
+		</ul>
+	</div>
+</header>
+
+
+<section>
+<h1 class="form-head">Edit Menu Item</h1>
+<table class="form-table">
+	<tr><td>Name</td></tr>
+	<tr><td><input type="text"  id="name1" name="title" max="65" min="2" width="100%" required></td></tr>
+	<tr>
+		<td>Price(Rs.)</td>
+		<td>Active</td>
+		<td>Date of Launch</td>
+		<td>Category</td>
+	</tr>
+<tr><td><input type="text"  id="price1" name="price" pattern="[0-9]"></td>
+<td><input type="radio"  name="inStock" checked="checked" value="Yes">Yes
+<input type="radio" name="inStock" value="No">No</td>
+<td><input type="date" name="dateOfLaunch" id="dol" ></td>
+<td>
+	<select name="category">
+		<option value="0">Main Course</option>
+		<option value="Main Course">Main Course</option>
+		<option value="Starters">Starters</option>
+		<option value="Dessert">Dessert</option>
+		<option value="Drink">Drink</option>
+	</select>
+</td>
+</tr>
+<tr>
+	<td><input type="checkbox" name="freeDelivery" value="freeDelivery" id="freeDelivery" class="form-check">Free Delivery</td></tr>
+	<tr><td><a href="edit-menu-item-status.html"><input type="submit" name="name" value="Save"  onclick="add1();" class="form-save"></a></td></tr>
+	</table>
+
+
+
+</section>
+
+
+
+<footer class="footer1">
+	<p>Copyright &copy; 2019</p>
+</footer>
+
+
+<script>
+ function add1()
+ {
+ 	var name1=document.getElementById("name1").value;
+ 	var price=document.getElementById("price1").value;
+ 	var dol=document.getElementById("dol").value;
+ 	if(name1=="" && price!="" && dol!="")
+ 		alert("name is required field");
+ 	if(price=="" && dol!="" && name1!="")
+ 		alert("price is required field");
+ 	if(dol=="" && price!="" && name1!="")
+ 		alert("date of launch is required field");
+
+ }
+</script>
+
+
+</body>
+</html>
